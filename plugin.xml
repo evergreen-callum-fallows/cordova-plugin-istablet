@@ -19,9 +19,7 @@
   <license>MIT</license>
   <keywords>ecosystem:cordova,android,ios,tablet,detect,screen size,display</keywords>
 
-  <js-module src="www/istablet.js" name="IsTablet">
-    <runs/>
-  </js-module>
+
 
   <!-- Android -->
   <platform name="android">
@@ -51,8 +49,8 @@
         <param name="browser-package" value="IsTablet" />
       </feature>
     </config-file>
-    <js-module src="src/browser/IsTablet.js" name="IsTabletProxy">
-      <runs />
+    <js-module src="www/istablet.js" name="IsTablet">
+      <runs/>
     </js-module>
   </platform>
 </plugin>
