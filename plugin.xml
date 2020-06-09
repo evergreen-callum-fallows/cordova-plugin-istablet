@@ -25,14 +25,12 @@
 
   <!-- Android -->
   <platform name="android">
-
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="IsTablet">
-        <param name="android-package" value="uk.co.workingedge.phonegap.plugin.IsTablet"/>
+        <param name="android-package" value="cordova-plugin-istablet"/>
       </feature>
     </config-file>
-
-    <source-file src="src/android/IsTablet.java" target-dir="src/uk/co/workingedge/phonegap/plugin" />
+    <source-file src="src/android/IsTablet.java" target-dir="src/cordova/plugin/istablet/" />
   </platform>
 
   <!-- iOS -->
@@ -42,14 +40,7 @@
         <param name="ios-package" value="IsTablet"/>
       </feature>
     </config-file>
-
     <header-file src="src/ios/IsTablet.h" />
     <source-file src="src/ios/IsTablet.m" />
-  </platform>
-
-  <platform name="windows">
-    <js-module src="src/windows/istabletproxy.js" name="IsTabletProxy">
-      <merges target="" />
-    </js-module>
   </platform>
 </plugin>

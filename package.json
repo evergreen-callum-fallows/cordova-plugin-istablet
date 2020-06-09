@@ -31,5 +31,5 @@
         "screen size",
         "display"
     ],
-    "types": "./uk.co.workingedge.phonegap.plugin.istablet.d.ts"
+    "types": "./cordova-plugin-istablet.d.ts"
 }
