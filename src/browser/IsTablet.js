@@ -26,7 +26,9 @@
 
 
 var IsTablet = function() {
-    return true;
+    return {
+        isTablet: true
+    };
 }
 
 module.exports = IsTablet;
