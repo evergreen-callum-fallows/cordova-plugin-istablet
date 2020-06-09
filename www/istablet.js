@@ -27,6 +27,5 @@
       runPlugin();
     })();
     var channel = require("cordova/channel");
-    // have to wait until cordova is ready, because windows proxy js files are not pre-loaded
     channel.onCordovaReady.subscribe(runPlugin);
 })();

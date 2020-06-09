@@ -1,13 +1,13 @@
 {
-    "version": "1.2.0",
-    "name": "uk.co.workingedge.phonegap.plugin.istablet",
+    "version": "1.0.0",
+    "name": "cordova-plugin-istablet",
     "cordova_name": "Is Tablet",
     "description": "Cordova/Phonegap plugin to determine if current device is a tablet.",
-    "author": "Dave Alden",
+    "author": "Callum Fallows",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/dpa99c/phonegap-istablet.git"
+        "url": "https://github.com/evergreen-callum-fallows/cordova-plugin-istablet.git"
     },
     "cordova": {
         "id": "cordova-plugin-istablet",
@@ -16,7 +16,7 @@
           "ios"
         ]
     },
-    "issue": "https://github.com/dpa99c/phonegap-istablet/issues",
+    "issue": "https://github.com/evergreen-callum-fallows/cordova-plugin-istablet.git",
     "keywords": [
         "ecosystem:cordova",
         "cordova",
