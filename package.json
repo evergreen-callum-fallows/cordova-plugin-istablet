@@ -13,7 +13,8 @@
         "id": "cordova-plugin-istablet",
         "platforms": [
           "android",
-          "ios"
+          "ios",
+          "browser"
         ]
     },
     "issue": "https://github.com/evergreen-callum-fallows/cordova-plugin-istablet.git",

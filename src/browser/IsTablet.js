@@ -23,15 +23,12 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  *
  */
-#ifdef CORDOVA_FRAMEWORK
-#import <Cordova/CDVPlugin.h>
-#else
-#import "Cordova/CDVPlugin.h"
-#endif
 
 
-@interface IsTablet :CDVPlugin {}
+var IsTablet = function() {
+    return true;
+}
 
-- (void) isTabletDevice:(CDVInvokedUrlCommand*)command;
+module.exports = IsTablet;
 
-@end
+require('cordova/exec/proxy').add('IsTablet', module.exports);
