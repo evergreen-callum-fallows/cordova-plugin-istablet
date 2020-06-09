@@ -19,14 +19,9 @@
     "issue": "https://github.com/evergreen-callum-fallows/cordova-plugin-istablet.git",
     "keywords": [
         "ecosystem:cordova",
-        "cordova",
-        "phonegap",
         "ios",
         "android",
         "tablet",
-        "phone",
-        "mobile",
-        "cellphone",
         "detect",
         "screen size",
         "display"
