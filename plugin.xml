@@ -44,16 +44,4 @@
     <header-file src="src/ios/IsTablet.h" />
     <source-file src="src/ios/IsTablet.m" />
   </platform>
-
-  <!-- Browser -->
-  <platform name="browser">
-    <config-file target="config.xml" parent="/*">
-      <feature name="IsTablet">
-        <param name="browser-package" value="IsTablet" />
-      </feature>
-    </config-file>
-    <js-module src="src/browser/IsTablet.js" name="IsTabletProxy">
-      <runs />
-    </js-module>
-  </platform>
 </plugin>
