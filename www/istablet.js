@@ -20,7 +20,6 @@
           window.isTablet = !!result;
       }, function(){
           console.log("cordova-plugin-istablet proxy");
-          return window.screen.width > 920;
       }, 'IsTablet', 'isTabletDevice', []);
     };
     var exec = require('cordova/exec');
